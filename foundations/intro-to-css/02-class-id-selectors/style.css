@@ -1,0 +1,23 @@
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#one {
+  color: blue;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#two {
+  font-weight: 700;
+  background-color: lightgreen;
+}
+
+.odd {
+  background-color: lightpink;
+  font-size: 20px;
+}
+
+.three {
+  font-size: 20px;
+}

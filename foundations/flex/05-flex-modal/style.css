@@ -30,7 +30,7 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
+  display: flex; /* centra la ! dentro del circulo del boton de adverencia */
   align-items: center;
   justify-content: center;
 }
@@ -42,8 +42,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   height: 24px;
-  width: 24px;
-  display: flex;
+  width: 24px; 
+  display: flex; /* centra la X dentro del circulo del boton de cerrar */
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
@@ -66,4 +66,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+
+
+.modal {
+  display: flex;
+  gap: 16px; /* espacio entre el icono y el contenido del modal */
+  padding: 16px; /* espacio interno del modal */
+}
+
+.icon {
+  flex-shrink: 0; /* evita que el icono se reduzca */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px; /* espacio entre el header y el texto */
+}
+
+.text{
+  margin-bottom: 14px; /* espacio entre el texto y los botones */
 }
